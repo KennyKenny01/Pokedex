@@ -1,3 +1,4 @@
+import React from "react";
 import styles from "./header.module.css"
 
 
@@ -8,7 +9,7 @@ type HeaderProps = {
 
 const Header = ({query, setQuery}: HeaderProps) => {
     return (
-        <header className= {styles.header}>
+        <header className={styles.header}>
             <input className={styles.input} 
             placeholder='Busca un Pokemon' 
             type="text"
