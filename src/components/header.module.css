@@ -1,7 +1,7 @@
 header {
     display: grid;
     font-size: 1.2rem;
-    font-weight: bold;
+    font-weight: 800;
     padding: 10px;
     place-items: center;
     background: var(--bg-gradient);
